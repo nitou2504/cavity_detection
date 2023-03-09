@@ -1,0 +1,4 @@
+Cavity_detection/src/secrets.py
+Cavity_detection/data/
+.deepnote/
+Cavity_detection/src/__pycache__
