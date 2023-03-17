@@ -10,7 +10,6 @@ def define_CNN(num_classes, dim):
                         input_shape=(dim, dim, 1)),
                       MaxPooling2D(pool_size),
                       Flatten(),
-                      Dense(8, activation= 'relu'),
                       Dense(num_classes, activation='sigmoid'),
                       ])
     
@@ -31,7 +30,7 @@ def define_DCNN1(num_classes, dim):
         Flatten(),
         #
         #Dense(128, activation='relu'),
-        Dense(16, activation='relu'),
+        #Dense(16, activation='relu'),
         Dense(num_classes, activation='sigmoid')
 
     ])
@@ -55,7 +54,7 @@ def define_DCNN2(num_classes, dim):
         Flatten(),
         #
         #Dense(128, activation='relu'),
-        Dense(32, activation='relu'),
+        #Dense(32, activation='relu'),
         Dense(num_classes, activation='sigmoid')
 
     ])
@@ -83,7 +82,7 @@ def define_DCNN3(num_classes, dim):
         Flatten(),
         #
         #Dense(128, activation='relu'),
-        Dense(64, activation='relu'),
+        #Dense(32, activation='relu'),
         Dense(num_classes, activation='sigmoid')
 
     ])
