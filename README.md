@@ -34,3 +34,7 @@ The patch_prediction notebooks contain experiments to test individual patch pred
 The Cavity Detection project offers a comprehensive pipeline for training CNN and DCNN models to detect caries on ROIs in periapical dental radiographs. By employing various preprocessing techniques and evaluating the models' performance, the project aims to provide valuable insights into the detection of dental caries, with the potential for real-world application.
 
 Please refer to the individual notebooks for more detailed information on each step of the pipeline and for code implementation.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). 
